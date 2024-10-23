@@ -83,11 +83,11 @@ Follow these steps to set up HerArtSpace on your local machine.
     ```bash
     # For the frontend
     cd client
-    npm install
+    npm i
 
     # For the backend
     cd ../server
-    npm install
+    npm i
     ```
 
 ## Usage
