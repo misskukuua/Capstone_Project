@@ -1,0 +1,56 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "+-----------------------------------+              |        ReactJS/Next.js Frontend           |              +-----------------------------------+                            |                                   v              +-----------------------------------+              |        Node.js/Express API        |              +-----------------------------------+             /|\\                   /|\\         /|\\              |                     |           | +-----------------------+   +-----------------+   +---------------------+ |      Authentication    |   |   Community     |   |   Counseling         | |      Microservice      |   |   Microservice  |   |   Microservice        | +-----------------------+   +-----------------+   +---------------------+ +-----------------------+   +-----------------+   +---------------------+ | MongoDB (Users, Tokens)|   | MongoDB (Posts) |   | MongoDB (Sessions)   | +-----------------------+   +-----------------+   +---------------------+ +-----------------------+   +-----------------+   +---------------------+ | Resource Mgmt Service |   | Abuse Reports   |   | Notifications Service| +-----------------------+   +-----------------+   +---------------------+",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest --detectOpenHandles --forceExit",
+    "test:watch": "cross-env NODE_ENV=test jest --watch",
+    "test:coverage": "jest --coverage",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ],
+    "testTimeout": 30000,
+    "verbose": true,
+    "forceExit": true,
+    "clearMocks": true,
+    "detectOpenHandles": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "express-session": "^1.18.1",
+    "google-auth-library": "^9.14.2",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0",
+    "mocha": "^10.8.2",
+    "mongodb-memory-server": "^10.1.2",
+    "nodemon": "^3.1.7",
+    "sinon": "^19.0.2",
+    "supertest": "^7.0.0"
+  }
+}
