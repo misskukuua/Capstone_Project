@@ -31,7 +31,7 @@ https://www.figma.com/design/nNqqE6vPu69ynYjuGRMQeu/Her-Art-Space-Figma-Design?n
 https://drive.google.com/file/d/1SgBnMQ099tCQoJ01Gsch21UgcwsH5vCF/view?usp=sharing
 
 - **Mock Up**
-https://www.canva.com/design/DAGSXV0LDdw/mPUEQbc8_Av-1vFz7dK29Q/edit
+https://www.canva.com/design/DAGVQC299VE/cYpCU_UBQD9yiYJcZBCa5w/edit?utm_content=DAGVQC299VE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 - **Github Repo**
 https://github.com/misskukuua/Capstone_Project.git
