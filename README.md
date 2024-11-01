@@ -74,7 +74,7 @@ Follow these steps to set up HerArtSpace on your local machine.
 
 1. **Clone the repository**:
     ```bash
-    https://github.com/misskukuua/HerArtSpaceApp.git
+    https://github.com/misskukuua/Capstone_Project.git
     ```
 
 2. **Navigate into the project directory**:
