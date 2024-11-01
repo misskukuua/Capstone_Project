@@ -26,10 +26,6 @@ HerArtSpace provides a platform for young girls who have faced abuse to heal and
 - **Figma Design**
 https://www.figma.com/design/nNqqE6vPu69ynYjuGRMQeu/Her-Art-Space-Figma-Design?node-id=0-1&node-type=canvas&t=ilsvm5mOn5zED4Ht-0
 
-
-- **Link to Video**
-https://drive.google.com/file/d/1SgBnMQ099tCQoJ01Gsch21UgcwsH5vCF/view?usp=sharing
-
 - **Mock Up**
 https://www.canva.com/design/DAGVQC299VE/cYpCU_UBQD9yiYJcZBCa5w/edit?utm_content=DAGVQC299VE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
