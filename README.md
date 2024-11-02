@@ -14,6 +14,7 @@ HerArtSpace is a web platform that creates a safe digital space for young girls 
 - [Usage](#usage)
   - [Running Locally](#running-locally)
 - [API Endpoints](#api-endpoints)
+- [Demo Video](#demo-video)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
@@ -105,6 +106,9 @@ npm run dev
 ```
 
 Access the application: Visit http://localhost:3000 to view the app.
+
+- **Demo Video**
+https://drive.google.com/file/d/1Qs9y41Yi_68a3k0dcLOcKARW6-GZS4Xs/view?usp=sharing
 
 ## Contact
 Email: p.asare@alustudent.com
