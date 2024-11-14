@@ -4,6 +4,7 @@
   "description": "+-----------------------------------+              |        ReactJS/Next.js Frontend           |              +-----------------------------------+                            |                                   v              +-----------------------------------+              |        Node.js/Express API        |              +-----------------------------------+             /|\\                   /|\\         /|\\              |                     |           | +-----------------------+   +-----------------+   +---------------------+ |      Authentication    |   |   Community     |   |   Counseling         | |      Microservice      |   |   Microservice  |   |   Microservice        | +-----------------------+   +-----------------+   +---------------------+ +-----------------------+   +-----------------+   +---------------------+ | MongoDB (Users, Tokens)|   | MongoDB (Posts) |   | MongoDB (Sessions)   | +-----------------------+   +-----------------+   +---------------------+ +-----------------------+   +-----------------+   +---------------------+ | Resource Mgmt Service |   | Abuse Reports   |   | Notifications Service| +-----------------------+   +-----------------+   +---------------------+",
   "main": "src/index.js",
   "scripts": {
+    "build": "echo 'No build necessary for backend'",
     "test": "cross-env NODE_ENV=test jest --detectOpenHandles --forceExit",
     "test:watch": "cross-env NODE_ENV=test jest --watch",
     "test:coverage": "jest --coverage",
